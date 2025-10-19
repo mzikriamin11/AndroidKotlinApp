@@ -13,30 +13,30 @@
         android:layout_height="wrap_content"
         android:text="@string/number"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="60sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnAddNumber"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/add_number"
-        android:onClick="addNumber"/>
+        android:onClick="addNumber"
+        android:text="@string/add_number" />
 
     <Button
         android:id="@+id/btnResetNumber"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/reset_number"
-        android:onClick="resetNumber"/>
+        android:onClick="resetNumber"
+        android:text="@string/reset_number" />
 
     <Button
         android:id="@+id/btnSubtractNumber"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/subtract_number"
-        android:onClick="SubtractNumber"/>
+        android:onClick="SubtractNumber"
+        android:text="@string/subtract_number" />
 </LinearLayout>
